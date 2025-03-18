@@ -15,6 +15,8 @@ class Application {
 
         Triangle tri3 = new Triangle(1.1F, 2.0F, "brown");
         System.out.println("Triangle3 equals to Triangle1: " + tri.equals(tri3));
+
+        System.out.println("Numar instante create: " + Form.getCounter());
     }
 }
 
